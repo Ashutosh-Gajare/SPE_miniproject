@@ -15,8 +15,8 @@
     - name: Create & Start Calculator Docker Container
       docker_container:
         name: calculator-using-devops
-        vars:
-          ansible_python_interpreter: /usr/bin/python3
+#         vars:
+#           ansible_python_interpreter: /usr/bin/python3
         image: ashugaju/calculator-using-devops
         state: started
         tty: yes
