@@ -6,7 +6,7 @@
   tasks:
     - name: Pull Docker Image
       vars:
-        ansible_python_interpreter: /bin/python3
+        ansible_python_interpreter: /usr/bin/python3
       docker_image:
         name: ashugaju/calculator-using-devops
         tag: latest
@@ -16,7 +16,7 @@
       docker_container:
         name: calculator-using-devops
         vars:
-          ansible_python_interpreter: /bin/python3
+          ansible_python_interpreter: /usr/bin/python3
         image: ashugaju/calculator-using-devops
         state: started
         tty: yes
