@@ -26,7 +26,7 @@ public class Calculator {
         do {
             System.out.println("Calculator-DevOps, Choose to perform operation");
             System.out.print(
-                "Enter 1 to find Factorial\n" +
+                "Input 1 to find Factorial\n" +
                 "Enter 2 to find Square Root\n" +
                 "Enter 3 to find Power\n" +
                 "Enter 4 to find Natural Logarithm\n" +
